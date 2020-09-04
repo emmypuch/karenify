@@ -253,12 +253,13 @@ body {
 #button button {
   background-color: #fd9604;
   color: #ececee;
-  transition: 0.5s;
+  transition: all 0.5s;
+  border: 2px solid transparent;
   outline: none;
 }
 
 #button button:hover {
-  background-color: #1f2029;
+  background-color: transparent;
   color: #fd9604;
   border: 2px solid #fd9604;
   outline: none;
