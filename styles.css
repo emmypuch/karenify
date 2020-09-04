@@ -241,23 +241,44 @@ body {
   }
 }
 
-div.image {
-  /* overflow: hidden; */
-  /* height: 520px; */
-  /* padding: 1rem; */
-  /* background-color: red; */
-  /* background: linear-gradient(#89ff00,#fd9604) */
-  /* width: 400px; */
-}
-
-.image img {
-  /* box-sizing: content-box; */
-}
-
 #imgContent {
   overflow-y: hidden;
   height: 620px;
-  padding: 1rem;
+  padding: 0.3rem;
   width: 400px;
-  background: linear-gradient(#89ff00, #fd9604);
+  background: linear-gradient(#fd9604, #f3c686);
+  border-radius: 2px;
+}
+
+#button button {
+  background-color: #fd9604;
+  color: #ececee;
+  transition: 0.5s;
+  outline: none;
+}
+
+#button button:hover {
+  background-color: #1f2029;
+  color: #fd9604;
+  border: 2px solid #fd9604;
+  outline: none;
+}
+
+.wrapper h1 {
+  background: linear-gradient(to right, #fd9604 10%, #ececee 50%, #9b9eb8 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+  display: inline-block;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }

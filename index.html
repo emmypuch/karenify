@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="w-screen h-screen">
+    <div class="w-screen">
       <section>
         <a href="#" class="logo"
-          ><h1 class="font-bold" style="font-size: 30px; color: #ececee;">
+          ><h1 class="font-bold" style="font-size: 2rem; color: #ececee;">
             OA <span style="color: #fd9604">.</span>
           </h1></a>
       <div>
@@ -38,17 +38,24 @@
 
       <section class="px-48 py-6">
         <div class="grid grid-cols-2">
-          <div class="content mt-48">
-            <h3 class="text-lg text-white">
+          <div class="content" style="margin-top: 300px;">
+            <h3 style="font-size: 1.5rem; color: #ececee;">
               Hi, I am
             </h3>
-            <h1 class="text-2xl text-white font-bold mt-1">Omowunmi.</h1>
-            <p class="mt-4 text-white">I'm a frontend developer based in Lagos, Nigeria.</p>
+            <div class="wrapper">
+              <h1 class="font-bold mt-1" style="color: #ececee; font-size: 3rem;">Omowunmi.</h1>
+            </div>
+            <p class="mt-4" style="color: #ececee; font-size: 1rem;">I'm a frontend developer based in Lagos, Nigeria.</p>
+            <div id="button">
+              <button class="text-base py-2 rounded-md px-10 focus:outline-none mt-6">Hire Me</button>
+            </div>
           </div>
 
           <div class="image mt-32">
             <div id="imgContent">
-              <img src="images/portrait.png" alt="" style="background-color: #30323d; width: 100%;" />
+              <div style="overflow-y: hidden; width: auto; height: 100%;">
+                <img src="images/portrait.png" alt="" style="background-color: #30323d; width: 150%; height: 110%;" />
+              </div>
             </div>
 
           </div>
