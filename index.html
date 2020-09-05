@@ -12,67 +12,70 @@
   </head>
   <body>
     <div class="w-screen">
-      <section>
-        <a href="#" class="logo"
-          ><h1 class="font-bold" style="font-size: 2rem; color: #ececee;">
-            OA <span style="color: #fd9604">.</span>
-          </h1></a>
-      <div>
-        <input
-        class="menu-icon"
-        type="checkbox"
-        id="menu-icon"
-        name="menu-icon"
-      />
-      <label for="menu-icon"></label>
-      <nav class="nav">
-        <ul class="pt-5">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Project</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Resume</a></li>
-        </ul>
-      </nav>
-      </div>
-      </section>
-
-      <section class="px-48 py-6">
-        <div class="grid grid-cols-2">
-          <div class="content" style="margin-top: 300px;">
-            <h3 style="font-size: 1.5rem; color: #ececee;">
-              Hi, I am
-            </h3>
-            <div class="wrapper">
-              <h1 class="font-bold mt-1" style="color: #ececee; font-size: 3rem;">Omowunmi.</h1>
-            </div>
-            <p class="mt-4" style="color: #ececee; font-size: 1rem;">I'm a frontend developer based in Lagos, Nigeria.</p>
-            <div id="button">
-              <button class="text-base py-2 rounded-md px-10 focus:outline-none mt-6">Hire Me</button>
-            </div>
-          </div>
-
-          <div class="image mt-32">
-            <div id="imgContent">
-              <div style="overflow-y: hidden; width: auto; height: 100%;">
-                <img src="images/portrait.png" alt="" style="background-color: #30323d; width: 150%; height: 110%;" />
-              </div>
-            </div>
-
-          </div>
+      <section class="px-40 py-4 flex justify-between">
+        <div>
+          <a href="#" id="Logo" style="margin-top: 50px"><h1>OA</h1></a>
+        </div>
+        <div class="navLinks">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Resume</a></li>
+          </ul>
         </div>
       </section>
 
-    </div>
+      <section
+        class="flex px-48 py-4"
+        style="align-items: center; min-height: 90vh"
+      >
+        <div class="grid grid-cols-2">
+          <div class="content" style="align-self: center">
+            <h3 style="font-size: 1rem; color: #ececee">Hi, I am</h3>
+            <div class="wrapper">
+              <h1 class="font-bold" style="color: #ececee; font-size: 3rem">
+                Omowunmi.
+              </h1>
+            </div>
+            <p class="mt-4" style="color: #ececee; font-size: 1rem">
+              I'm a frontend developer based in Lagos, Nigeria.
+            </p>
+            <div id="button">
+              <button
+                class="text-base py-2 rounded-md px-10 focus:outline-none mt-6"
+              >
+                About Me
+              </button>
+            </div>
+          </div>
 
-
-
-      <!-- <div class="content-image">
-        <img src="images//20200903_111801-removebg-preview.png" alt="" />
-      </div>
-
-      <div>
-        <img src="images//20200903_112039-removebg-preview.png" alt="" />
-      </div> -->
+          <div style="position: relative; left: 400px">
+            <div
+              style="
+                height: 250px;
+                width: 200px;
+                position: relative;
+                border: 2px solid #39b2ab;
+              "
+            >
+              <img
+                src="images/header-img44.png"
+                alt=""
+                style="
+                  border-radius: 2px;
+                  position: absolute;
+                  width: inherit;
+                  height: inherit;
+                  top: -10px;
+                  left: -10px;
+                "
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <script src="script.js"></script>
