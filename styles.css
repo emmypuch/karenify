@@ -52,7 +52,7 @@ ul li a:hover {
 }
 
 #box1-container {
-  background-color: #39b2ab;
+  background-color: #2d3748;
   height: 200px;
   border-radius: 2px;
   transition: all 0.5s;
@@ -86,5 +86,5 @@ ul li a:hover {
 }
 
 .footer p {
-  color: #39b2ab;
+  color: #6e7887;
 }
