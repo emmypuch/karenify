@@ -82,10 +82,9 @@ ul li a:hover {
 
 .footer {
   display: flex;
-  justify-content: center;
-  align-content: center;
+  justify-content: flex-end;
 }
 
 .footer p {
-  color: #6e7887;
+  color: #39b2ab;
 }
