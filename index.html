@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>emmypuch</title>
+    <title>Hi, 👋 I'm Omowunmi</title>
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
@@ -22,7 +22,7 @@
         </div>
         <div class="navLinks">
           <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a data-scroll href="#home">Home</a></li>
             <li><a href="#project">Project</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#resume">Resume</a></li>
@@ -421,9 +421,9 @@
             <div class="mt-4">
               <h4 style="font-size: 1rem; color: #ececee">Email</h4>
               <a
+                class="socials"
                 href="mailto:adesuyiomowunmi@gmail.com"
                 target="_blank"
-                style="font-size: 1rem; color: #6e7887"
               >
                 adesuyiomowunmi@gmail.com
               </a>
@@ -431,12 +431,8 @@
 
             <div class="mt-4">
               <h4 style="font-size: 1rem; color: #ececee">Phone</h4>
-              <a
-                href="tel:+234 8147005526"
-                style="font-size: 1rem; color: #6e7887"
-              >
-                +234 8147005526<br />
-                +234 9085211106
+              <a class="socials" href="tel:+234 8147005526">
+                +(234) 814 700 5526
               </a>
             </div>
           </div>
@@ -447,7 +443,7 @@
             </h3>
             <div class="mt-4">
               <a
-                class="social hover:text-teal-500 mr-4"
+                class="social mr-4"
                 href="https://fb.com/adesuyi.omowuni"
                 target="_blank"
               >
@@ -479,8 +475,13 @@
           </p>
         </div>
       </section>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa fa-arrow-circle-up fa-2x"></i>
+      </button>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

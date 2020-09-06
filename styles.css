@@ -80,6 +80,15 @@ ul li a:hover {
   color: #39b2ab;
 }
 
+.socials {
+  font-size: 1rem;
+  color: #6e7887;
+}
+
+.socials:hover {
+  color: #39b2ab;
+}
+
 .footer {
   display: flex;
   justify-content: flex-end;
@@ -87,4 +96,16 @@ ul li a:hover {
 
 .footer p {
   color: #6e7887;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 45.8%;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: #39b2ab;
+  cursor: pointer;
 }
