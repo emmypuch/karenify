@@ -1,5 +1,5 @@
 const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 2000,
+  speed: 1500,
 });
 
 var mybutton = document.getElementById("myBtn");
@@ -20,3 +20,9 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+window.scroll({
+  top: 0,
+  left: 0,
+  behavior: "smooth",
+});
