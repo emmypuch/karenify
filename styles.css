@@ -71,3 +71,21 @@ ul li a:hover {
   color: #ececee;
   font-size: 1.8rem;
 }
+
+.social {
+  color: #6e7887;
+}
+
+.social:hover {
+  color: #39b2ab;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer p {
+  color: #6e7887;
+}
