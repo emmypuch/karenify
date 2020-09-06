@@ -52,7 +52,7 @@ ul li a:hover {
 }
 
 #box1-container {
-  background-image: linear-gradient(to bottom right, #9fe4e0, #9ee0dd);
+  background-color: #39b2ab;
   height: 200px;
   border-radius: 2px;
   transition: all 0.5s;
@@ -64,7 +64,7 @@ ul li a:hover {
 }
 
 #box1-container:hover {
-  background-color: transparent;
+  transform: scale(1.07);
 }
 
 #box1-container h4 {
