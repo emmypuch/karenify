@@ -112,8 +112,14 @@ ul li a:hover {
   font-size: 18px;
   border: none;
   outline: none;
+  transition: all 0.5s;
   color: #39b2ab;
   cursor: pointer;
+}
+
+#myBtn:hover {
+  color: #6e7887;
+  transform: scale(1.07);
 }
 
 html {
