@@ -2,4 +2,8 @@
 
 @tailwind components;
 
+.navigation {
+  @apply px-40 py-4 flex justify-between;
+}
+
 @tailwind utilities;

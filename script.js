@@ -2,7 +2,7 @@ const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
 });
 
-var mybutton = document.getElementById("myBtn");
+var mybutton = document.querySelector("#myBtn");
 
 window.onscroll = function () {
   scrollFunction();
@@ -25,4 +25,20 @@ window.scroll({
   top: 0,
   left: 0,
   behavior: "smooth",
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  let menuButton = document.querySelector(".open-menu");
+
+  function showMenu() {
+    this.classList.toggle("open-menu--open");
+  }
+
+  menuButton.addEventListener("click", showMenu);
+
+  window.addEventListener("keydown", function (event) {
+    if (event.keyCode === 27) {
+      menuButton.classList.remove("open-menu--open");
+    }
+  });
 });
