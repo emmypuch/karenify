@@ -282,4 +282,31 @@ html {
     margin-top: 15px;
     grid-gap: 10px;
   }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  #myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    transition: all 0.5s;
+    color: #39b2ab;
+    cursor: pointer;
+  }
+
+  #myBtn:hover {
+    color: #6e7887;
+    transform: scale(1.07);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }
