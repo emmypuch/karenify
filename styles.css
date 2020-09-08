@@ -147,6 +147,7 @@ html {
     width: 100%;
     margin: 0 auto;
     max-width: 1200px;
+    margin-top: 15px;
   }
 
   .main-nav {
@@ -164,9 +165,9 @@ html {
     height: 60px;
     display: block;
     position: relative;
-    border: 0;
+    border: none;
     cursor: pointer;
-    outline: 0;
+    outline: none;
     background-color: transparent;
   }
 
@@ -186,7 +187,7 @@ html {
     display: block;
     width: 100%;
     height: 4px;
-    background-color: #2d3748;
+    background-color: #6e7887;
     transition-duration: 0.15s;
     transition-timing-function: ease-out;
   }
@@ -217,7 +218,7 @@ html {
     transform-origin: 0 0;
     transition: transform 0.4s ease-out, opacity 0.4s ease-out,
       visibility 0.4s ease-out;
-    background-color: #6e7887;
+    background-color: #191c21;
     opacity: 0;
     visibility: hidden;
     z-index: -3000;
@@ -265,5 +266,12 @@ html {
   .user-block__logo {
     width: 50px;
     display: block;
+  }
+
+  #content-image {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
   }
 }
