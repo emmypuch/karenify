@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
   background-color: #191c21;
 }
 
@@ -293,7 +294,6 @@ html {
   #myBtn {
     position: fixed;
     bottom: 20px;
-    /* right: 30px; */
     z-index: 99;
     font-size: 18px;
     border: none;
