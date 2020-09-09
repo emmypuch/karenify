@@ -143,6 +143,11 @@ html {
     display: none;
   }
 
+  body {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
   .container {
     width: 100%;
     margin: 0 auto;
@@ -285,7 +290,8 @@ html {
 
   .footer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-bottom: 5px;
   }
 
   #myBtn {
